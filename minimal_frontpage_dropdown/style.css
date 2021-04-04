@@ -1,0 +1,76 @@
+.clearfix::after{
+    content:"";
+    clear: both;
+    display: table;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgb(72 83 112);
+    margin: 0;
+}
+.main-menu-continair{
+    padding-top: 50px;
+    
+}
+
+.main-menu{
+    padding: 0;
+    border-bottom: 3px solid #68d2c3;
+    /* az inline blok ragál az igatzításra */
+    text-align: center;
+}
+
+.main-menu-itme{
+    display: inline-block;
+
+}
+ .main-menu-itme a{
+     display: block;
+     text-decoration: NONE;
+     color: #e9e4ff;
+     font-size: 20px;
+     width: 120px;
+     padding: 20px 0;
+ }
+
+
+.main-menu-itme:hover a{
+    color: white;
+    background-color: rgba(41, 47, 48, 0.2);
+}
+.main-menu-itme:hover .red{
+    color: red;
+}
+.main-content{
+    color: white;
+    width: 800px;
+    margin: 40px auto 0 auto;
+
+}
+header{
+    width: 400px;
+}
+h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+header p{
+    font-size: 22px;
+    margin: 0 0 30px 0;
+}
+.company-image{
+    float: right;
+}
+
+main{
+    width: 500px;
+    line-height: 1.6;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
