@@ -54,7 +54,7 @@ body{
     list-style: none;
     background-color: rgb(34 116 175);
     padding: 0;
-    position: absolute;
+    position: absqolute;
     top: 64px;
     width: 200px;
     display: NONE;
